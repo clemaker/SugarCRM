@@ -1,0 +1,136 @@
+.adv {
+    position: fixed;
+    right: 5%;
+    top: 15%;
+}
+
+.you {
+    position: fixed;
+    left: 5%;
+    top: 15%;
+
+}
+
+.advatk {
+    position: fixed;
+    top: 20%;
+    right: 25%;
+}
+
+.myatk {
+    position: fixed;
+    top: 20%;
+    left: 25%;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    left: 35%;
+}
+
+.text {
+
+    position: fixed;
+    bottom: 15%;
+    left: 35%;
+    border: solid darkblue 5px;
+    padding: 1%;
+}
+
+.win {
+    position: fixed;
+    left: 5%;
+    top: 20%;
+    image-rendering: auto;
+}
+
+.lose {
+    position: fixed;
+    right: 5%;
+    top: 20%;
+    image-rendering: auto;
+
+}
+
+.retry {
+    position: fixed;
+    bottom: 20%;
+    left: 80%;
+}
+
+.next {
+    position: fixed;
+    bottom: 20%;
+    left: 85%;
+}
+
+.center {
+    text-align: center;
+}
+
+.photo {
+    position: relative;
+    left: 15%;
+}
+
+.desc {
+    position: absolute;
+    left: 17%;
+    top: 22%;
+    border: solid darkblue 5px;
+    padding: 1%;
+}
+
+.position {
+    position: absolute;
+    left: 17%;
+    top: 68%;
+}
+
+.rang {
+    position: absolute;
+    left: -5%;
+    top: 25%;
+    font-size: 40px;
+}
+
+.descPerso {
+    position: absolute;
+    left: 15.1%;
+    top: 18.1%;
+    padding: 5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.positionPerso {
+    position: absolute;
+    left: 17%;
+    top: 79%;
+}
+
+.positiontype {
+    position: absolute;
+    left: 10px;
+}
+
+.progress {
+    width: 20%;
+    background: black;
+    border-radius: 10px;
+    border: solid lightblue;
+    position: relative;
+    left: 40%;
+ }
+
+ .progressp {
+    height: 22px;
+    width: 30%;
+ }
+
+ .progressxp {
+    height: 10px;
+    width: 30%;
+ }
+

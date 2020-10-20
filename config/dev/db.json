@@ -1,0 +1,5 @@
+{
+  "dsn":"mysql:host=localhost;dbname=edens_project;charset=utf8",
+  "user":"root",
+  "password":""
+}
