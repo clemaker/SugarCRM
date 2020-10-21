@@ -18,6 +18,7 @@ require ('src/controller/World.php');
 require ('src/model/Model.php');
 require ('src/model/ModelDegats.php');
 require ('src/model/ModelPlayer.php');
+require ('src/controller/ErrorDisplay.php');
 
 $contents = file_get_contents(__DIR__ . '/config/env.json');
 $obt = json_decode($contents);
@@ -57,4 +58,24 @@ $road = array(
         $controller = new Home;
         $controller->manage();
     };
+
+function logError (
+    $errno,
+    $errstr,
+    $errfile,
+    $errline
+)
+{
+    $log = $errno . $errstr . $errfile . $errline . "\n";
+    file_put_contents(__DIR__ . "/../../log/" . date("d-m-Y") . ".log", $log, FILE_APPEND);
+}
+    set_error_handler("logError");
+
+    register_shutdown_function(function() {
+        $error = error_get_last();
+        if ($error) {
+            logError($error['type'], $error['message'], $error['file'], $error['line']);
+        }
+    });
+
 ?>
