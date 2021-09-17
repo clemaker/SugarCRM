@@ -6,11 +6,11 @@ include ('header.php');
   <div class="col">
     <form class="form" href="" method="post"></br>
       <div class="col">
-        <label for="name"> Pseudo : melissa </label></br>
+        <label for="name"> Pseudo :</label></br>
         <input type="text" name="pseudo" placeholder="Pseudo">
     </div></br>
     <div class="col">
-        <label for="name"> Password : qVKbo6obKxDVbVvVfJ5EN5i529Lfkmf7W7MA</label></br>
+        <label for="name"> Password :</label></br>
         <input type="password" name="password" placeholder="Password">
     </div></br>
     <div class="col">
