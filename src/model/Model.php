@@ -3,17 +3,7 @@ class Model {
 
     private $bdd;
 
-    public function __construct() {
-
-        $config = json_decode(file_get_contents(__DIR__ . '/../../config/' . ENV .'/db.json'));
-
-        try {
-            $this->bdd = new PDO ($config->dsn, $config->user,$config->password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-        }
-        catch (Exception $e) {
-            var_dump('ERROR : Echec lors de la tentetive de conexion : ' . $e->getMessage());
-        }
-    }
+    public function __construct() {}
 
     public function login($pseudo, $password) {
         try {

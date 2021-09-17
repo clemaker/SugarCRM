@@ -1,7 +1,7 @@
 {
-  "name": "edenszero",
+  "name": "sugarcrm",
   "version": "1.0.0",
-  "description": "game",
+  "description": "exercice",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
